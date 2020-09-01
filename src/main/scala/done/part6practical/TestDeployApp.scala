@@ -1,4 +1,4 @@
-package part6practical
+package done.part6practical
 
 import org.apache.spark.sql.{SaveMode, SparkSession}
 import org.apache.spark.sql.functions._
@@ -68,7 +68,7 @@ object TestDeployApp {
     *
     * 3. Run the spark-submit command
     *   /spark/bin/spark-submit \
-    *     --class part6practical.TestDeployApp \
+    *     --class done.part6practical.TestDeployApp \
     *     --master spark://(dockerID):7077 \
     *     --deploy-mode client \
     *     --verbose \
